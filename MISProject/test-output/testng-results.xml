@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="17964" started-at="2019-05-22T09:25:03Z" finished-at="2019-05-22T09:25:21Z">
+    <groups>
+    </groups>
+    <test name="Testone" duration-ms="17964" started-at="2019-05-22T09:25:03Z" finished-at="2019-05-22T09:25:21Z">
+      <class name="common.SeleniumHelper">
+        <test-method status="PASS" signature="Init(java.lang.String)[pri:0, instance:common.SeleniumHelper@523884b2]" name="Init" duration-ms="17892" started-at="2019-05-22T09:25:03Z" finished-at="2019-05-22T09:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+      </class> <!-- common.SeleniumHelper -->
+    </test> <!-- Testone -->
+  </suite> <!-- testSuite -->
+</testng-results>

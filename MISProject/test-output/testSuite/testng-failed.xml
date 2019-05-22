@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testSuite]">
+  <test thread-count="5" name="Testone(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="common.SeleniumHelper">
+        <methods>
+          <include name="Init" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- common.SeleniumHelper -->
+    </classes>
+  </test> <!-- Testone(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

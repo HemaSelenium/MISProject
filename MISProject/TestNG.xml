@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testSuite" >
+ 
+  <test name="Testone">
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="common.SeleniumHelper" />
+    
+    </classes>
+  </test>
+  
+ 
+</suite>
